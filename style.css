@@ -1,0 +1,131 @@
+h1 {
+  color:#B4B7FA;
+  font-family: "Outfit", sans-serif;
+  font-size: 30px;
+  margin-top: 60px;
+  padding: 50px;
+}
+
+body {
+  background: #F7F7F7;
+}
+p {
+  color: #546458;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: ;
+  margin: 70px auto;
+}
+
+h2 {
+  color: #F8AB81;
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+}
+
+a {
+  color :#15A3EF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0E41B0;
+}
+
+img {
+  border-radius: 50px;
+}
+
+
+
+.container {
+  background-color: white;
+  border-radius: 10px;
+  width: 900px;
+  height: 500px;
+  margin: 40px auto;
+  box-shadow: 2px 2px 3px #B4B7FA;
+  text-align: center;
+  padding: 40px auto;
+}
+
+
+.card-white {
+  background-color: white;
+  text-align: center;
+  border-radius: 10px;
+  width: 900px;
+  height: 150px;
+  margin: 40px auto;
+  box-shadow: 2px 2px 3px #B4B7FA;
+  padding: 40px auto;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.list-inline {
+  list-style: none;
+  text-align: center;
+  font-size: 30px;
+  margin: 40px auto;
+  color: #B4B7FA;
+}
+
+.list-inline i {
+  text-align: 40px auto ;
+  font-size: 30px;
+  color: #8D7BDC;
+}
+
+.list-inline:hover{
+  color: #F8AB81;
+}
+
+.button-blue {
+  background-color: #9A80CF;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 3px;
+  margin: 20px auto;
+}
+
+.button-blue:hover {
+  background-color: #8D7BDC;
+  color: white;
+}
+
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+  .card-white {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+  .card-white {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+  .card-white {
+    width: 300px;
+  }
+}
